@@ -11,11 +11,7 @@
                         <a href="{{url}}">{{{title}}}</a>
                     </h2>
                         <div class="widget-meta">
-                            <span>发表于{{date format='YYYY-MM-DD'}}</span>
-                            <span class="divider">/</span>
-                            <a href="{{url}}#Comment">
-                                <span class="ds-thread-count" data-thread-key="{{uuid}}" data-count-type="comments"></span>
-                            </a>
+                            <span>{{date format='DD-MM-YYYY'}}</span>
                         </div>
                         <div class="hr-line"></div>
                     </header>
@@ -23,11 +19,11 @@
                     {{excerpt}}
                     </section>
                     <section class="widget-footer">
-                        <a class="btn" href="{{url}}">阅读全文</a>
+                        <a class="btn" href="{{url}}">Continue reading</a>
                     </section>
                 </article>
             {{/foreach}}
-            
+
             {{pagination}}
         </div>
     </div>

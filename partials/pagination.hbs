@@ -5,31 +5,31 @@
             <span class="pager-prev-arrow">
                 <i class="fa fa-angle-left"></i>
             </span>
-            <span>上一页</span>
+            <span>Previous</span>
         </a>
        {{else}}
-        <a href="javascrip:void(0)" class="disabled">
+        <a href="javascript:void(0)" class="disabled">
                 <span class="pager-prev-arrow">
                     <i class="fa fa-angle-left"></i>
                 </span>
-                <span>上一页</span>
+                <span>Previous</span>
          </a>
         {{/if}}
     </div>
     <div class="pager-current">
-        <a href="">{{page}}/{{pages}}页</a>
+        <a href="">Page {{page}}/{{pages}}</a>
     </div>
     <div class="pager-next">
        {{#if next}}
             <a href="{{page_url next}}">
-                <span>下一页</span>
+                <span>Next</span>
                 <span class="pager-next-arrow">
                     <i class="fa fa-angle-right"></i>
                 </span>
             </a>
         {{else}}
-           <a href="javascrip:void(0)" class="disabled">
-                <span>下一页</span>
+           <a href="javascript:void(0)" class="disabled">
+                <span>Next</span>
                 <span class="pager-next-arrow">
                     <i class="fa fa-angle-right"></i>
                 </span>
